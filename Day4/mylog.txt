@@ -1,0 +1,12 @@
+INFO:root:input : 3 + 4, output=7
+INFO:root:정보 메시지
+WARNING:root:경고 메시지
+ERROR:root:에러 메시지
+CRITICAL:root:치명적 메시지
+INFO:root:프로그램 시작
+ERROR:root:오류 발생: division by zero
+Traceback (most recent call last):
+  File "C:\Users\정주환\AppData\Local\Temp\ipykernel_23584\684388024.py", line 14, in <module>
+    result = 10 / 0
+             ~~~^~~
+ZeroDivisionError: division by zero
