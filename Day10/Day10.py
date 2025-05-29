@@ -125,7 +125,7 @@ if add_sidebar == 'Aggregate Metrics':
         
     # 함수정의 define위에 되어 있는거 사용하는 방법(applymap은 데이터프레임의 각 셀에 함수를 적용할 때 사용하는 방법)
     # pandas가 알아서 매칭해서 적용(딕셔너리 안에 컬럼별 함수들)
-    st.dataframe(df_agg_diff_final.style.hide().applymap(style_negative, props='color:red;').applymap(style_positive, props='color:green;').format(df_to_pct))
+    st.dataframe(df_agg_diff_final.style.applymap(style_negative, props='color:red;').applymap(style_positive, props='color:green;').format(df_to_pct))
 if add_sidebar == 'Individual Video Analysis':
     st.write('제작중')
 
