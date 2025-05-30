@@ -110,7 +110,7 @@ with st.sidebar:
     st.header("설정값")
     st.write("STreamlit Elements를 사용하여 드래그 가능하고 크기 조절 가능한 대시보드 만들기")
     st.write("---")
-    select_year = st.selectbox("월 선택",["2016","2017","2018","2019","2020","2021","2022","2023","2024","2025"])
+    select_year = st.selectbox("연도 선택",["2016","2017","2018","2019","2020","2021","2022","2023","2024","2025"])
     select_sex = st.selectbox("성별",["남성+여성","남성","여성"])
     
 df = load_data()
