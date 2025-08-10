@@ -10,3 +10,4 @@ NLP/GoogleNews-vectors-negative300.bin.gz
 NLP/word2.h5
 NLP/steam.txt
 NLP/best_model.h5
+*.txt
